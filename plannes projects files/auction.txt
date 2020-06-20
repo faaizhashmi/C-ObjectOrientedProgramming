@@ -1,0 +1,73 @@
+Who are you?
+1. Auctioner
+	1. Please enter your ID?/ Login Process
+
+	
+		1. Create new auction(New Id)
+			1. Enter name of auction
+			2. Starting bid 
+			3. Description th
+		2. Check your auction(already registered)
+			1. Enter id of auction
+				1. Select bidder id to choose
+				0. To wait for auctioners to exit
+			
+		3. Delete Auction
+2. Bidder
+	1. Please enter your ID?/ Login Process
+	    1. New Id
+
+	    2. already registered
+	     *input id
+	
+		1.Check Auctions
+			1. Select Auctions by id
+				1. Place your bid
+		2. Exit.
+
+		2.Check personal Bid Status
+	
+
+
+Class User = {
+	int id;
+	char *name;
+	char *type;
+public:
+	User() {
+		cout>>"Default User called">>endl;
+	};
+	User(id, nm, type) {
+		cout>> "User constructor with parameters called">>endl;
+	};
+}
+
+
+Class Auctioner = User.inherit({
+public:
+	Auctioner() {
+		cout>>"Default Auctioner called">>endl;
+	};
+	Auctioner(id, nm, type) 
+	{
+		cout>> Auctioner Constructor with parameters called">>endl;
+	};	
+	
+});
+Class Bidder = User.inherit({
+
+});
+
+
+main() {
+	Auctioner auc = new Auctioner();
+
+
+}
+
+
+result?
+	bidding 		auction
+		
+
+

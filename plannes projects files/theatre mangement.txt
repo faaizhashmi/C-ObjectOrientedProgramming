@@ -1,0 +1,24 @@
+     who are you
+1) admin
+	1) Initialize TIcket
+		type
+		1) Silver(constant seats+price)
+		2) GOld
+		3) Palatinum
+	2) Movies running
+	3) Modify movies
+		1)Add
+		2)Delete movie
+		3)Edit Movie
+			1) Name change
+			2) timing 
+	4) see booking list
+	5)Exit
+
+2) User
+	1)book a movie
+	2)Modify a booking
+		1)change movie ticket with other movie
+	3) Cancel a booking
+	4) Exit as user 
+	
